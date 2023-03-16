@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:note_app_second_try/view/widgets/notesViewBody.dart';
 
 class mainScreen extends StatelessWidget {
 
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Note App'),
-      ),
+    return const Scaffold(
+      body: NotesViewBody(),
     );
   }
 }
+
